@@ -298,7 +298,7 @@ Tony is an all-in-one productivity platform that consolidates tasks, notes, cale
 |------|--------|-------|
 | Unit tests | ⬜ | Jest |
 | E2E tests | ⬜ | Supertest |
-| API documentation | ⬜ | Swagger/OpenAPI |
+| API documentation | ✅ | Swagger/OpenAPI at /api/docs |
 | Rate limiting | ⬜ | @nestjs/throttler |
 | Request logging | ⬜ | Morgan/custom |
 | Error tracking | ⬜ | Sentry |

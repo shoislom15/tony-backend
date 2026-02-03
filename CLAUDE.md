@@ -6,12 +6,22 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Tony is an AI-powered productivity hub backend built with NestJS. It provides a unified API for tasks, notes, calendar, and finance management, accessible via Telegram bot, web app, mobile app, and MCP integration for Claude Desktop.
 
-**Current State**: Fresh NestJS starter - architecture is documented but features are not yet implemented.
+**Current State**: Core modules implemented (Auth, Users, Tasks, Notes). Calendar, Finance, AI, WebSocket modules pending.
 
 ## Documentation
 
 - `docs/project-overview.md` - Project vision, features, target users, and roadmap
 - `docs/arcitecture.md` - Complete system architecture diagrams and NestJS project structure
+- `docs/api-reference.md` - **LLM-friendly API reference** with all endpoints, types, and examples
+- `PLAN.md` - Implementation progress tracker
+
+## API Documentation (Swagger)
+
+When the server is running:
+- **Swagger UI**: http://localhost:3010/api/docs
+- **OpenAPI JSON**: http://localhost:3010/api/docs-json (LLM-friendly)
+
+For building client applications with Claude Code, use `docs/api-reference.md` or fetch the OpenAPI spec from `/api/docs-json`.
 
 ## Development Commands
 
