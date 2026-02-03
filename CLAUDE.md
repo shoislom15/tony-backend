@@ -8,6 +8,11 @@ Tony is an AI-powered productivity hub backend built with NestJS. It provides a 
 
 **Current State**: Fresh NestJS starter - architecture is documented but features are not yet implemented.
 
+## Documentation
+
+- `docs/project-overview.md` - Project vision, features, target users, and roadmap
+- `docs/arcitecture.md` - Complete system architecture diagrams and NestJS project structure
+
 ## Development Commands
 
 ```bash
